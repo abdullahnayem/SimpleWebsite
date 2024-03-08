@@ -399,6 +399,9 @@ html{
   .footer-navlinks{
     text-align: center;
   }
+  .footer-navlinks li{
+    list-style: none;
+  }
   .footersection li a{
     font-size: 0.9rem;
     line-height: 1.6;
@@ -464,3 +467,7 @@ html{
   .pricing .service .col-md-5 ul{
 margin-left: 20px;
   }
+  /* .pricing .service .col-md-5:hover{
+  box-shadow: -10px 0px 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+  } */
